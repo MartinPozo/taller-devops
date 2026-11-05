@@ -49,7 +49,7 @@ jobs:
         steps:
             - uses: action/checkout@v4
         
-            - uses: action/setup-node@v4
+            - uses: action/setup-node@v3
               with:
                 node-version: "22"
 
